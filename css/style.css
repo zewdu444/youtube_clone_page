@@ -2,6 +2,8 @@ body{
     font-family: 'Courier New', Courier, monospace; 
     font-size: medium;
     background-color: rgb(250, 248, 248);
+    margin: 1px;
+    
 }
 header,nav,main,footer
 {
@@ -9,5 +11,8 @@ header,nav,main,footer
     border-radius: 3px;
     margin-bottom: 2px;
     
+}
+header{
+    width: 75%;
 }
 
