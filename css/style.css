@@ -27,7 +27,7 @@ body{
     grid-column: 1;
     grid-row: 1;
     grid-row-end: 3;
-    
+    padding: 10px;
     
 }
 .menubar{
