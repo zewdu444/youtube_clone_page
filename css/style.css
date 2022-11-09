@@ -19,7 +19,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     gap: 2px;
-    grid-template-rows: 40px 4fr 40px;
+    grid-template-rows: 50px 4fr 40px;
     
 }
 
@@ -52,4 +52,18 @@ body{
     grid-column: 1/ span 3;
     grid-row: 3;
     
+}
+.search{
+    padding-left: 200px;
+}
+.search input[type=text]{
+    position: center;
+  justify-content: center;
+  border-color: rgb(127, 127, 127);
+  border-radius: 6px;
+  box-shadow: none;
+  width: 400px;
+  height: 30px;
+  border: 1px;
+  margin: 5px;
 }
