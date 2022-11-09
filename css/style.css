@@ -3,6 +3,7 @@ body{
     font-size: medium;
     background-color: rgb(250, 248, 248);
     margin: 1px;
+   
     
 }
 .youtube_container{
@@ -17,12 +18,15 @@ body{
     grid-row: 1;
     grid-row-end: 3;
     border-style: solid;
+    padding: 2px;
 }
 .menubar{
     grid-column: 2/4;
     grid-row: 1;
     grid-row-end: 1;
     border-style: solid;
+    padding: 2px;
+    
 }
 .main{
    grid-column: 2/3;
@@ -33,9 +37,11 @@ body{
     grid-column: 3;
     grid-row: 2;
     border-style: solid;
+    padding: 2px;
 }
 .footer{
     grid-column: 1/ span 3;
     grid-row: 3;
     border-style: solid;
+    padding: 2px;
 }
