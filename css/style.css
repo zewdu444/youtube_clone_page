@@ -9,16 +9,19 @@ body{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     gap: 5px;
-    grid-auto-rows: minmax(50px, auto);
+    grid-template-rows: 40px 4fr 40px;
+    
 }
 .nav{
     grid-column: 1;
     grid-row: 1;
+    grid-row-end: 3;
     border-style: solid;
 }
 .menubar{
     grid-column: 2/4;
     grid-row: 1;
+    grid-row-end: 1;
     border-style: solid;
 }
 .main{
