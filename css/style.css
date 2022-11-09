@@ -67,3 +67,7 @@ body{
   border: 1px;
   margin: 5px;
 }
+.search button[type=submit]{
+    border: none;
+
+}
