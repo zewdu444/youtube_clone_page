@@ -5,14 +5,34 @@ body{
     margin: 1px;
     
 }
-header,nav,main,footer
-{
-    border: 0.5px solid rgb(199, 199, 199);
-    border-radius: 3px;
-    margin-bottom: 2px;
-    
+.youtube_container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 5px;
+    grid-auto-rows: minmax(50px, auto);
 }
-header{
-    width: 75%;
+.nav{
+    grid-column: 1;
+    grid-row: 1;
+    border-style: solid;
 }
-
+.menubar{
+    grid-column: 2/4;
+    grid-row: 1;
+    border-style: solid;
+}
+.main{
+   grid-column: 2/3;
+   grid-row: 2;
+   border-style: solid;
+}
+.related{
+    grid-column: 3;
+    grid-row: 2;
+    border-style: solid;
+}
+.footer{
+    grid-column: 1/ span 3;
+    grid-row: 3;
+    border-style: solid;
+}
