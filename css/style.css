@@ -72,5 +72,22 @@ body{
 
 }
 .plus{
-    padding-left: 500px;
+    padding-left: 480px;
+}
+.main button[type=submit]{
+    border: none;
+}
+.subscribe,.like,.share,.clip,.save{
+    background-color: LightGray;
+    border-radius: 5px;
+    height: 30px;
+}
+.gap{
+    padding-left:380px;
+}
+.more{
+    background-color: LightGray;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
 }
