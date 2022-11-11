@@ -17,7 +17,7 @@ body{
 }
 .youtube_container{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 4fr 2fr;
     gap: 2px;
     grid-template-rows: 50px 4fr 40px;
     
@@ -83,7 +83,7 @@ body{
     height: 30px;
 }
 .gap{
-    padding-left:380px;
+    padding-left:210px;
 }
 .more{
     background-color: LightGray;
