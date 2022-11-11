@@ -101,7 +101,7 @@ body{
     margin-bottom: 6px;
     padding: 4px;
 }
-.comments,.loggin_commnet{
+.comments,.loggin_comment{
     margin-left: 5px;
 }
 .user_commnets,.user_comments_like{
@@ -113,3 +113,24 @@ body{
 .gap_comment{
     padding-left:680px;
 }
+
+.image_column {
+    float: left;
+    width:  40%;;
+    padding: 5px;
+
+  }
+  
+
+  .image_catalog::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 20px;
+  }
+  .image_menu {
+    padding-top: 40px;
+  }
+  .image_shape{
+    border-radius: 10px;
+  }
