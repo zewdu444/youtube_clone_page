@@ -77,10 +77,11 @@ body{
 .main button[type=submit]{
     border: none;
 }
-.subscribe,.like,.share,.clip,.save{
+.subscribe,.like,.share,.clip,.save,.user_comments_like{
     background-color: LightGray;
     border-radius: 5px;
     height: 30px;
+    border: none;
 }
 .gap{
     padding-left:210px;
@@ -99,4 +100,13 @@ body{
     margin-top: 6px;
     margin-bottom: 6px;
     padding: 4px;
+}
+.comments,.loggin_commnet{
+    margin-left: 5px;
+}
+.user_commnets,.user_comments_like{
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: justify;
+    
 }
