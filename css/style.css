@@ -25,18 +25,16 @@ body{
 
 .nav{
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     grid-row-end: 3;
     padding: 10px;
     
 }
 .menubar{
-    grid-column: 2/4;
+    grid-column: 1;
     grid-row: 1;
     grid-row-end: 1;
-   
-  
-    
+    width: 100%;
 }
 .main{
    grid-column: 2/3;
@@ -54,8 +52,12 @@ body{
     
 }
 .search{
-    padding-left: 200px;
+    margin-left: 10px;
 }
+.search_gap{
+    margin-left: 400px;
+}
+
 .search input[type=text]{
     position: center;
   justify-content: center;
@@ -72,7 +74,7 @@ body{
 
 }
 .plus{
-    padding-left: 480px;
+    padding-left: 400px;
 }
 .main button[type=submit]{
     border: none;
@@ -134,3 +136,10 @@ body{
   .image_shape{
     border-radius: 10px;
   }
+  /* make menubar at fixed postion */
+  .menubar,.header{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+  }
+  
