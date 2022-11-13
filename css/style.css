@@ -51,13 +51,6 @@ body{
     grid-row: 3;
     
 }
-.search{
-    margin-left: 10px;
-}
-.search_gap{
-    margin-left: 400px;
-}
-
 .search input[type=text]{
     position: center;
   justify-content: center;
@@ -73,9 +66,7 @@ body{
     border: none;
 
 }
-.plus{
-    padding-left: 400px;
-}
+
 .main button[type=submit]{
     border: none;
 }
@@ -85,8 +76,9 @@ body{
     height: 30px;
     border: none;
 }
-.gap{
-    padding-left:210px;
+.button_gap{
+     padding-left:210px; 
+    
 }
 .more{
     background-color: LightGray;
@@ -142,4 +134,26 @@ body{
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
   }
+ .nav_box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 3px;
+    align-items: center;
+   
+ }
+ 
+ .logo_nav{
+   flex: 2;
   
+ }
+ .search_nav{
+  flex: 8;
+  text-align: center;
+  
+ }
+ .user_nav{
+   flex: 4;
+   text-align: end;
+
+ }
